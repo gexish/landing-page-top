@@ -1,4 +1,37 @@
 body {
+    display: flex;
+    flex-direction: column;
     font-family: Roboto, sans-serif;
-    font-weight: 700;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 18px;
+    ;
+}
+
+#header-logo {
+    font-weight: 900;
+    font-style: italic;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
